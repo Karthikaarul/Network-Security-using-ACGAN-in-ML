@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Bingo One page parallax responsive HTML Template ">
+  
+  <meta name="author" content="Themefisher.com">
+
+  <title>Login</title>
+
+<!-- Mobile Specific Meta
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+  <!-- CSS
+  ================================================== -->
+  <!-- Themefisher Icon font -->
+  <link rel="stylesheet" href="../static/plugins/themefisher-font/style.css">
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="../static/plugins/bootstrap/css/bootstrap.min.css">
+  <!-- Lightbox.min css -->
+  <link rel="stylesheet" href="../static/plugins/lightbox2/dist/css/lightbox.min.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="../static/plugins/animate/animate.css">
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="../static/plugins/slick/slick.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="../static/css/style.css">  
+
+</head>
+
+<body id="body">
+
+ <!--
+  Start Preloader
+  ==================================== -->
+  <div id="preloader">
+    <div class='preloader'>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div> 
+  <!--
+  End Preloader
+  ==================================== -->
+
+
+  
+
+<!--
+Fixed Navigation
+==================================== -->
+<header class="navigation fixed-top">
+  <div class="container">
+    <!-- main nav -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- logo -->
+       
+      <!-- /logo -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navigation">
+        <ul class="navbar-nav ml-auto text-center">
+           <li class="nav-item ">
+            <a class="nav-link" href="{{url_for('first')}}">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="{{url_for('login')}}">Login</a>
+          </li>
+		     <li class="nav-item ">
+            <a class="nav-link" href="{{url_for('upload')}}">upload</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- /main nav -->
+  </div>
+</header>
+<!--
+End Fixed Navigation
+==================================== -->
+
+<section class="single-page-header">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h2>Enhancing Network Security Decision-Making: ACGAN-
+          Powered Machine Learning</h2>
+				<ol class="breadcrumb header-bradcrumb">
+				  <li><a href="index.html"></a></li>
+				  <li class="active"></li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</section>
+
+ <!--Start Contact Us
+	=========================================== -->		
+<section class="contact-us" id="contact">
+	<div class="container">
+		<div class="row">
+			
+			<!-- section title -->
+			<div class="col-12">
+			 
+				 
+				 
+			 
+			
+			<head>
+
+        
+         
+	 <style>
+
+
+ 
+ 
+    </style>
+		 <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+        function login(){
+        var uname = document.getElementById("uname").value;
+        var pwd = document.getElementById("pwd").value;
+
+	if(uname == "admin" && pwd == "admin")
+	{
+	  alert("Login Success!");
+	  
+	  window.location = "{{url_for('upload')}}";
+	  return false;
+	}
+	else
+	{
+	alert("Invalid Credentials!")
+	}
+        }
+		
+		  
+
+
+ 
+    </script>
+	
+</head>
+
+ <body id="page-top">
+
+   
+ 
+
+  <!-- Portfolio Section -->
+  <section class="page-section portfolio" id="portfolio">
+ 
+      <br>
+	  <br>
+      <!-- Portfolio Section Heading -->
+       
+      <!-- Icon Divider -->
+    
+		<center><h2>Login</h2></center>
+      <!-- Portfolio Grid Items -->
+      <div class="row">
+
+        <!-- Portfolio Item 1 -->
+        <div class="col-md-6 col-lg-4" style="margin-left:420px">
+ 
+		 <div class="control-group">
+			      <!-- Username -->
+				 
+			      <label class="control-label"   for="username"><b>Username</b></label>
+			      <div class="controls">
+			        <input type="text" id="uname" name="uname" placeholder="" class="form-control">
+			       
+				  </div>
+			    </div>
+				</br>
+			    <div class="control-group">
+			      <!-- Password-->
+				  
+			      <label class="control-label"  for="password"><b>Password</b></label>
+			      <div class="controls">
+			        <input type="password" id="pwd" name="pwd" placeholder="" class="form-control">
+			      
+				  </div>
+			    </div>
+				 <div class="col-md-6 col-lg-4" style="margin-left:-120px">
+			    <div class="control-group">
+			      <!-- Button -->
+				  <br>
+			      <div class="controls">
+				   
+			        <input type="button" class="btn btn-primary" value="Login" style="margin-left: 230px" onclick="login()">
+			      
+				  </div>
+			    </div>
+				 </div>
+  </div>
+  </div>
+ 
+ 
+  </section>
+
+
+  
+
+    </body>
+			</div>
+			<!-- /section title -->
+			 
+				
+		 
+			<!-- ./End Contact Form -->
+		
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+</section> <!-- end section -->
+
+<!--================================
+=            Google Map            =
+=================================-->
+
+
+
+
+<footer id="footer" class="bg-one">
+  <div class="top-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-md-3 col-lg-3">
+          
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+           
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+ 
+        </div>
+        <!-- End of .col-sm-3 -->
+
+        <div class="col-sm-3 col-md-3 col-lg-3">
+ 
+        </div>
+        <!-- End of .col-sm-3 -->
+
+      </div>
+    </div> <!-- end container -->
+  </div>
+  <div class="footer-bottom">
+ 
+  </div>
+</footer> <!-- end footer -->
+
+
+    <!-- end Footer Area
+    ========================================== -->
+
+
+    
+    <!-- 
+    Essential Scripts
+    =====================================-->
+    <!-- Main jQuery -->
+    <script src="../static/plugins/jquery/jquery.min.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+    <script  src="../static/plugins/google-map/gmap.js"></script>
+
+    <!-- Form Validation -->
+    <script src="../static/plugins/form-validation/jquery.form.js"></script> 
+    <script src="../static/plugins/form-validation/jquery.validate.min.js"></script>
+    
+    <!-- Bootstrap4 -->
+    <script src="../static/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Parallax -->
+    <script src="../static/plugins/parallax/jquery.parallax-1.1.3.js"></script>
+    <!-- lightbox -->
+    <script src="../static/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+    <!-- Owl Carousel -->
+    <script src="../static/plugins/slick/slick.min.js"></script>
+    <!-- filter -->
+    <script src="../static/plugins/filterizr/jquery.filterizr.min.js"></script>
+    <!-- Smooth Scroll js -->
+    <script src="../static/plugins/smooth-scroll/smooth-scroll.min.js"></script>
+    
+    <!-- Custom js -->
+    <script src="../static/js/script.js"></script>
+
+  </body>
+  </html>
